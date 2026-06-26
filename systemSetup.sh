@@ -4,7 +4,7 @@ echo "--------Install dependencies--------"
 
 echo "Updating package lists and installing dependencies..."
 sudo apt update
-sudo apt install -y zsh python3-venv dfu-util build-essential git cmake ninja-build picocom gcc-arm-none-eabi gdb-multiarch binutils-arm-none-eabi stlink-tools
+sudo apt install -y zsh python3-venv dfu-util build-essential git cmake ninja-build picocom gcc-arm-none-eabi gdb-multiarch binutils-arm-none-eab
 
 git config --global user.name "Gerald Mbuthia"
 git config --global user.email "geraldombuthia@gmail.com"
